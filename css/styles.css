@@ -1,0 +1,4 @@
+.navitem{
+    display: flex;
+    justify-content: end;
+}
