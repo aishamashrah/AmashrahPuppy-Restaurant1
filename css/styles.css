@@ -4,18 +4,15 @@
 .navLogo {
   margin: 2rem;
 }
-.t {
+.navLink {
   text-decoration: none;
-}
-
-.abtLinks {
-  
+  color: #5F002B;
+  font-family: 'Fugaz One', cursive;
 }
 
 .primeNav{
     list-style: none; 
-    justify-content: space-evenly;
-  display: flex;
+   gap: 3em;
 }
 
 .abtHeader {
