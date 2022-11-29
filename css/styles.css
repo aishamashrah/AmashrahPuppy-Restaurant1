@@ -1,0 +1,25 @@
+.aboutBodyBg {
+  background-image: url("../assets/bgtexture.jpg");
+}
+.navLogo {
+  margin: 2rem;
+}
+.t {
+  text-decoration: none;
+}
+
+.abtLinks {
+  
+}
+
+.primeNav{
+    list-style: none; 
+    justify-content: space-evenly;
+  display: flex;
+}
+
+.abtHeader {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
