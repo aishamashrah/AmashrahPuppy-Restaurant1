@@ -11,7 +11,7 @@
 }
 
 .primeNav{
-    list-style: none; 
+  list-style: none; 
    gap: 3em;
 }
 
@@ -19,4 +19,24 @@
   align-items: center;
   display: flex;
   justify-content: space-between;
+}
+
+.aboutMainImg{
+  width: 500px;
+}
+
+.bg1{
+  background-color: white;
+  margin-left: 5rem;
+  width: 50rem;
+}
+
+.aboutMainTxt{
+  font-size: 13px;
+  
+}
+
+.Grill{
+  color: #5F002B;
+  font-family: 'Fugaz One', cursive;
 }
