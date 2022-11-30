@@ -61,14 +61,11 @@
 .ourTeamR{
   justify-content: center;
   display: flex;
+  margin-left: 1px;
 }
 
-.cardRow1{
+
+.col-4{
   justify-content: center;
-  display: flex;
-}
-
-.t{
-   justify-content: center;
   display: flex;
 }
