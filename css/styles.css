@@ -192,7 +192,7 @@ font-size: 10px;
     }
     .col-6 img{
        width: 7rem;
-       margin-left: 6rem;
+       margin-left: 10rem;
    
     }
 
@@ -200,6 +200,11 @@ font-size: 10px;
 .text{
     font-size: 13px;
         color: #5F002B;
+}
+.text1{
+  font-size: 13px;
+      color: #5F002B;
+      padding-left: 5rem;
 }
 
 
