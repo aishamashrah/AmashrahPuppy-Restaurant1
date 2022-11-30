@@ -1,4 +1,16 @@
-.navitem{
-    display: flex;
-    justify-content: end;
+.navtext{
+    margin: 1rem;
+    color: #5F002B;
+    font-size: 20px;
+    align-items: center;
+}
+
+.nav{
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.bgimg{
+    background-image: url(../assets/bgtexture.jpg);
 }
