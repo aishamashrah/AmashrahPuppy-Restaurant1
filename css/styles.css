@@ -40,3 +40,35 @@
   color: #5F002B;
   font-family: 'Fugaz One', cursive;
 }
+
+
+.ourTeamTxt{
+  font-size: 30px;
+  color: #5F002B;
+  font-family: 'Fugaz One', cursive;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ourTeamBg{
+  background-color: white;
+  margin-top: 3rem;
+  justify-content: center;
+  display: flex;
+}
+
+.ourTeamR{
+  justify-content: center;
+  display: flex;
+}
+
+.cardRow1{
+  justify-content: center;
+  display: flex;
+}
+
+.t{
+   justify-content: center;
+  display: flex;
+}
