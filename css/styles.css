@@ -1,6 +1,7 @@
 .aboutBodyBg {
   background-image: url("../assets/bgtexture.jpg");
 }
+
 .navLogo {
   margin: 2rem;
 }
@@ -21,20 +22,30 @@
   justify-content: space-between;
 }
 
+
 .aboutMainImg{
   width: 500px;
+  margin-right: 1rem;
+  
 }
 
 .bg1{
   background-color: white;
   margin-left: 5rem;
-  width: 50rem;
+  max-width: 50rem;
 }
 
 .aboutMainTxt{
-  font-size: 13px;
+  font-size: 12px;
   
 }
+
+.aboutMainR{
+  justify-content: center;
+  display: flex;
+ 
+}
+
 
 .Grill{
   color: #5F002B;
@@ -61,11 +72,5 @@
 .ourTeamR{
   justify-content: center;
   display: flex;
-  margin-left: 1px;
-}
-
-
-.col-4{
-  justify-content: center;
-  display: flex;
+  padding-right: 0;
 }
