@@ -50,6 +50,7 @@
 .Grill{
   color: #5F002B;
   font-family: 'Fugaz One', cursive;
+  margin-top: 2rem;
 }
 
 
@@ -106,4 +107,44 @@
 
 .cardRow1{
   margin-top: 2rem;
+}
+
+.cardTitle{
+  color: #5F002B;
+  font-family: 'Fugaz One', cursive;
+  font-size: 30px;
+}
+
+
+.footerLogo{
+  justify-content: end;
+  display: flex;
+  padding: 0;
+}
+
+.footerImg{
+  justify-content: end;
+  display: flex;
+  width: 7rem;
+}
+
+.footerRow1{
+  margin-top: 3rem;
+}
+
+.copyRightCol{
+  justify-content: end;
+  display: flex;
+}
+
+.addressTxt{
+  color: #5F002B;
+}
+
+.phoneNumTxt{
+  color: #5F002B;
+}
+
+.copyRightTxt{
+  color: #5F002B;
 }
