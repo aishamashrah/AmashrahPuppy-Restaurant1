@@ -2,6 +2,10 @@
   background-image: url("../assets/bgtexture.jpg");
 }
 
+.abtCont{
+  padding: 0;
+}
+
 .navLogo {
   margin: 2rem;
 }
@@ -24,14 +28,14 @@
 
 
 .aboutMainImg{
-  width: 500px;
-  margin-right: 1rem;
+  width: 520px;
+  margin-right: 2rem;
   
 }
 
 .bg1{
   background-color: white;
-  margin-left: 5rem;
+  margin-left: 13rem;
   max-width: 50rem;
 }
 
@@ -41,8 +45,7 @@
 }
 
 .aboutMainR{
-  justify-content: center;
-  display: flex;
+  
  
 }
 
@@ -52,6 +55,7 @@
   font-family: 'Fugaz One', cursive;
   margin-top: 2rem;
 }
+
 
 
 .ourTeamTxt{
@@ -66,24 +70,25 @@
 .ourTeamBg{
   background-color: white;
   margin-top: 3rem;
-  justify-content: center;
-  display: flex;
+  text-align: center;
+  width: 100rem;
+
 }
 
 .ourTeamR{
   justify-content: center;
   display: flex;
-  padding-right: 0;
+  padding: 0;
+  margin: 0
 }
 
 .dox1{
   justify-content: start;
   display: flex;
-  
 }
 
 .dox3{
-  justify-content: end;
+  
   display: flex;
   padding-right: 0;
 
@@ -107,6 +112,7 @@
 
 .cardRow1{
   margin-top: 2rem;
+  margin-right: 0;
 }
 
 .cardTitle{
