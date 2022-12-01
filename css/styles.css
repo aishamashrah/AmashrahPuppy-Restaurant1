@@ -74,3 +74,36 @@
   display: flex;
   padding-right: 0;
 }
+
+.dox1{
+  justify-content: start;
+  display: flex;
+  
+}
+
+.dox3{
+  justify-content: end;
+  display: flex;
+  padding-right: 0;
+
+
+}
+
+.jack1{
+  justify-content: center;
+  display: flex;
+  padding: 0;
+}
+
+.card{
+  border-radius: 0;
+}
+
+.card-img-top{
+  border-radius: 0;
+  height: 400px;
+}
+
+.cardRow1{
+  margin-top: 2rem;
+}
