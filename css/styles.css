@@ -70,8 +70,6 @@
   background-color: white;
   margin-top: 3rem;
   text-align: center;
-  width: 100rem;
-
 }
 
 .ourTeamR{
@@ -102,11 +100,14 @@
 
 .card{
   border-radius: 0;
+  justify-content: center;
+  display: flex;
 }
 
 .card-img-top{
   border-radius: 0;
-  height: 400px;
+  min-height: 400px;
+  max-height: 400px;
 }
 
 .cardRow1{
@@ -132,7 +133,8 @@
 .footerImg{
   justify-content: end;
   display: flex;
-  width: 7rem;
+ min-width: 7rem;
+ max-width: 7rem;
 }
 
 .footerRow1{
@@ -157,5 +159,7 @@
 }
 
 @media screen and (min-width: 425px) {
-  
+  .cardRow1{
+   flex-wrap: nowrap;
+  }
 }
