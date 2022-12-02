@@ -155,3 +155,7 @@
 .copyRightTxt{
   color: #5F002B;
 }
+
+@media screen and (min-width: 425px) {
+  
+}
