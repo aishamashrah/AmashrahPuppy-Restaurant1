@@ -1,157 +1,176 @@
-.backgroundimg{
+.backgroundimg {
     background-image: url("/assets/bgtexture.jpg");
-    }
-    body, html {
-        height: 100%;
-    }
-    
-    
-    .hero-image {
-    
-      background-image: url("../assets/homeHero.jpg");
-    
-    
-      height: 50%;
-    
-    
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
-    }
-    /* ----------nav---------- */
-.nav-link{
+}
+
+body,
+html {
+    height: 100%;
+}
+
+
+.hero-image {
+
+    background-image: url("../assets/homeHero.jpg");
+
+
+    height: 50%;
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* ----------nav---------- */
+.nav-link {
     color: #5F002B;
     font-family: 'Fugaz One', cursive;
 }
-.nav{
+
+.nav {
     justify-content: end;
     margin-top: 1rem;
-  
+
 }
-.navlogo{
+
+.navlogo {
     padding-left: 3rem;
 }
+
 /* ------------------ */
-.pic3{
+.pic3 {
     margin-right: 20rem;
 }
+
 .row {
     display: flex;
-   
-  }
-  
-  
-  .column {
+
+}
+
+
+.column {
     flex: 50%;
     padding: 10px;
-    height: 300px; 
-   
-  }
-  .column2{
+    height: 300px;
+
+}
+
+.column2 {
     flex: 50%;
     padding: 10px;
-    height: 300px; 
-  
-  }
-  .textbackG{
-   
+    height: 300px;
+
+}
+
+.textbackG {
+
     color: #5F002B;
     font-size: 15px;
-    
-   
-  }
-  .himeimage{
-    width: 42rem ;
-   margin-top: 3rem;
-   
 
-  }
-  .text-block {
+
+}
+
+.himeimage {
+    width: 42rem;
+    margin-top: 3rem;
+
+
+}
+
+.text-block {
     position: absolute;
-    
+
     background-color: rgb(255, 255, 255);
-    
- 
-  }
-  h1{
+
+
+}
+
+h1 {
     color: #5F002B;
-  }
-  /* --------- */
-  .column1 {
+}
+
+/* --------- */
+.column1 {
     float: left;
     width: 50%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 300px;
+    /* Should be removed. Only for demonstration */
     margin-top: 10rem;
     color: #5F002B;
     font-size: 10px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
+}
+
+/* Clear floats after the columns */
+.row:after {
     content: "";
     display: table;
     clear: both;
- 
-  }
-  .column2 {
+
+}
+
+.column2 {
     float: left;
     width: 20px;
     padding: 10px;
-    height: 30px; /* Should be removed. Only for demonstration */
+    height: 30px;
+    /* Should be removed. Only for demonstration */
     margin-top: 10rem;
-   color: #5F002B;
-   font-size: 10px;
-   
-  }
-  .yerr7{
-   
+    color: #5F002B;
     font-size: 10px;
-    padding-top: 7rem; ;
-   
-    }
-    .s img{
-      width: 7rem;
-      margin-left: 33rem;
+
+}
+
+.yerr7 {
+
+    font-size: 10px;
+    padding-top: 7rem;
+    ;
+
+}
+
+.s img {
+    width: 7rem;
+    margin-left: 39rem;
     padding-left: 0%;
-    
 
- 
-   }
 
-    
-    .yerr17{
-        padding-left: rem;
-        padding-top: 7rem;
-        color: #5F002B;
-       
-    }
-     
-       
-    
-    
-    .text7{
-        font-size: 13px;
-            color: #5F002B;
-    }
-    .text71{
-      font-size: 13px;
-          color: #5F002B;
-          padding-left: 26rem;
-          font-family:'Montauk, Regular ';
-  }
-  .row1{
+
+}
+
+
+.yerr17 {
+    padding-left: rem;
+    padding-top: 7rem;
+    color: #5F002B;
+
+}
+
+
+
+
+.text7 {
+    font-size: 13px;
+    color: #5F002B;
+}
+
+.text71 {
+    font-size: 13px;
+    color: #5F002B;
+    padding-left: 35rem;
+    font-family: 'Montauk, Regular ';
+}
+
+/* /////////////////////////////////// */
+.row1 {
     padding-right: 40rem;
-  }
-  .card-body1{
-    margin-top:1rem;
-    margin-left: 2rem;
-   font-size: 10px;
-   
-  }
-  .card{
-width: 43rem;
-height: rem;
+}
 
-  }
+.card-body1 {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-size: 10px;
+
+}
+
