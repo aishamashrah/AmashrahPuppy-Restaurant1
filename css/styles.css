@@ -126,17 +126,14 @@ html {
 
 }
 
-.nav1 {
-    padding-right: 10rem;
-}
+
 
 .photo11 {
     background-color: aliceblue;
     color: #5F002B;
     text-align: center;
-    line-height: 4rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+   
+    
 }
 
 /* .col-99{
@@ -208,48 +205,18 @@ font-size: 10px;
 }
 
 
+.text7 {
+    font-size: 13px;
+    color: #5F002B;
+}
 
+.text71 {
+    font-size: 13px;
+    color: #5F002B;
+    padding-left: 35rem;
+    font-family: 'Montauk, Regular ';
+}
 
-/* .column6 {
-    float: left;
-    width: 30%;
-    
-    justify-items: center;
    
    
-  }
   
-  /* Clear floats after the columns 
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .pix1{
-    align-items: center;
-    width: 200px;
-    height: 300px;
-    padding-top: 10rem;
-    background-color: aliceblue;
-  }
-  .pix2{
-    align-items: center;
-    width: 200px;
-    height: 300px;
-    padding-top: 10rem;
-    background-color: aliceblue;
-  }
-  .pix3{
-    align-items: center;
-    width: 200x;
-    height: 300px;
-    padding-top: 10rem;
-    background-color: aliceblue;
-  }
-  .pix4{
-    align-items: center;
-    width: 200px;
-    height: 300px;
-    padding-top: 10rem;
-    background-color: aliceblue;
-  } */
