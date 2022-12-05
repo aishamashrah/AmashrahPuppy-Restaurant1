@@ -4,11 +4,12 @@
 
 .abtCont{
   padding: 0;
+ width: 90vw;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
 }
 
-.navLogo {
-  margin: 2rem;
-}
 .navLink {
   text-decoration: none;
   color: #5F002B;
@@ -36,7 +37,7 @@
 .bg1{
   background-color: white;
   margin-left: 13rem;
-  max-width: 50rem;
+  max-width: 58.4%;
 }
 
 .aboutMainTxt{
@@ -158,8 +159,43 @@
   color: #5F002B;
 }
 
-@media screen and (min-width: 425px) {
-  .cardRow1{
-   flex-wrap: nowrap;
+
+/* Media Query */
+
+@media (max-width: 425px) {
+  .ourTeamR{
+    justify-content: center;
+    display: flex;
+    margin-left: 50%;
+   width: 50%;
   }
+}
+@media (max-width: 768px) {
+  .ourTeamR{
+    justify-content: center;
+    display: flex;
+   margin-left: 0%;
+   width: 100%;
+  }
+}
+
+@media (min-width: 425px) {
+  .abtCont{
+   width: 130vw;
+   margin-left: 12%;
+   padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .abtCont{
+   width: 100vw;
+   padding: 0;
+   margin-left: 2%;
+   
+  }
+}
+
+
+@media (max-width: 768px) {
+  
 }
