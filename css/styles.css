@@ -29,13 +29,14 @@ html {
 
 .nav {
     justify-content: end;
-    margin-top: 1rem;
-
+    margin-top: 2rem;
+    font-size: 15px;
+    font-family: 'Montauk, Regular ';
+   
+   
 }
 
-.navlogo {
-    padding-left: 3rem;
-}
+
 
 /* ------------------ */
 .pic3 {
@@ -143,7 +144,7 @@ padding-right: 8rem;
 padding-top: 2rem;
   } */
 .navlogo1 {
-    padding-left: 7rem;
+    padding-left: 6rem;
 }
 
 .row {
@@ -157,7 +158,7 @@ padding-top: 2rem;
 .columnuu {
     flex: 50%;
     padding: 0 4px;
-    padding-left: 3rem;
+    padding-left: 2rem;
 
 
 }
@@ -216,7 +217,22 @@ font-size: 10px;
     padding-left: 35rem;
     font-family: 'Montauk, Regular ';
 }
+.text72 {
+    font-size: 13px;
+    color: #5F002B;
+    font-family: 'Montauk, Regular ';
+}
+
+.text712 {
+    font-size: 13px;
+    color: #5F002B;
+  
+    font-family: 'Montauk, Regular ';
+}
 
    
-   
-  
+.ss img {
+    width: 7rem;
+    margin-left: 39rem;
+    padding-left: 0%;
+}
