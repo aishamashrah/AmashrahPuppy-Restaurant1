@@ -37,7 +37,7 @@
 .bg1{
   background-color: white;
   margin-left: 13rem;
-  max-width: 58.4%;
+  width: 58.4%;
 }
 
 .aboutMainTxt{
@@ -105,7 +105,7 @@
   display: flex;
 }
 
-.card-img-top{
+.dogI{
   border-radius: 0;
   min-height: 400px;
   max-height: 400px;
@@ -166,36 +166,68 @@
   .ourTeamR{
     justify-content: center;
     display: flex;
-    margin-left: 50%;
-   width: 50%;
+    margin-left: 30%;
+   width: 70%;
+  }
+
+  .cardRow1{
+    margin-left: 40%;
+  }
+  .dCard{
+    width: 20rem;
+    margin-left: 8rem;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .ourTeamR{
     justify-content: center;
     display: flex;
    margin-left: 0%;
+   margin-right: 0%;
    width: 100%;
   }
 }
 
-@media (min-width: 425px) {
+@media (max-width: 425px) {
   .abtCont{
    width: 130vw;
-   margin-left: 12%;
+   margin-left: 25%;
    padding: 0;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .abtCont{
    width: 100vw;
    padding: 0;
-   margin-left: 2%;
    
   }
 }
 
+@media(max-width:425px){
+}
+@media(max-width:768px){
+  .bg1{
+    margin-left: 10rem;
+  }
+}
+@media(max-width:768px){
+  .dogI{
+   min-height:10rem;
+  }
 
-@media (max-width: 768px) {
-  
+  .dox1{
+    height: 40rem;
+    padding: 0;
+  }
+  .jack1{
+    height: 40rem;
+    padding: 0;
+  }
+  .dox3{
+    height: 40rem;
+    padding: 0;
+  }
+  .cardRow1{
+    margin-left: 0;
+  }
 }
