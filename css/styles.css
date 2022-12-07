@@ -1,102 +1,191 @@
-.backgroundimg{
+.backgroundimg {
     background-image: url("/assets/bgtexture.jpg");
-    }
-    body, html {
-        height: 100%;
-    }
-    
-    
-    .hero-image {
-    
-      background-image: url("../assets/homeHero.jpg");
-    
-    
-      height: 50%;
-    
-    
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
-    }
-    /* ----------nav---------- */
-.nav-link{
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.hero-image {
+
+    background-image: url("../assets/homeHero.jpg");
+
+
+    height: 50%;
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* ----------nav---------- */
+.nav-link {
     color: #5F002B;
 }
-.nav{
+
+.nav {
     justify-content: end;
-    margin-top: 1rem;
-  
+    margin-top: 2rem;
+    font-size: 15px;
+    font-family: 'Montauk, Regular ';
+   
+   
 }
-.navlogo{
-    padding-left: 3rem;
-}
+
+
+
 /* ------------------ */
-.pic3{
+.pic3 {
     margin-right: 20rem;
 }
+
 .row {
     display: flex;
-  }
-  
-  
-  .column {
+}
+
+
+.column {
     flex: 50%;
     padding: 10px;
-    height: 300px; 
-   
-  }
-  .column2{
+    height: 300px;
+
+}
+
+.column2 {
     flex: 50%;
     padding: 10px;
-    height: 300px; 
-  
-  }
-  .textbackG{
-   
+    height: 300px;
+
+}
+
+.textbackG {
+
     color: #5F002B;
-  }
-  .himeimage{
-    width: 40rem ;
-   margin-top: 3rem;
-  }
-  .text-block {
+}
+
+.himeimage1 {
+    
+    margin-top: 3rem;
+
+}
+
+.text-block {
     position: absolute;
-    
+
     background-color: rgb(255, 255, 255);
-    
- 
-  }
-  .comn{
-background-color: aliceblue;
-margin-top: 1rem;
-width: 30rem ;
-  }
-  /* --------- */
-  .column1 {
+
+
+}
+
+.comn {
+    background-color: aliceblue;
+    margin-top: 1rem;
+    width: 30rem;
+}
+
+/* --------- */
+.column1 {
     float: left;
     width: 50%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-    margin-top: 10rem;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
+    margin-top: 7rem;
     color: #5F002B;
     font-size: 10px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
+}
+
+/* Clear floats after the columns */
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  .column2 {
+}
+
+.column22 {
     float: left;
     width: 20px;
     padding: 10px;
-    height: 30px; /* Should be removed. Only for demonstration */
-    margin-top: 10rem;
-   color: #5F002B;
-   font-size: 10px;
+    height: 30px;
+    /* Should be removed. Only for demonstration */
+    margin-top: 7rem;
+    color: #5F002B;
+
+    justify-content: end;
+    font-size: 10px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+/* ----------photo page------------------------------- */
+.photobackg {
+    background-image: url("/assets/bgtexture.jpg");
+
+}
+.d{
+    margin-left: 3rem;
+}
+
+
+.photo11 {
+    background-color: aliceblue;
+    color: #5F002B;
+    text-align: center;
+   padding: 5px;
+    
+}
+
+/* .col-99{
+justify-content: center;
+padding-left: 8rem;
+padding-right: 8rem;
+padding-top: 2rem;
+  } */
+.navlogo1 {
+    padding-left: 6rem;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+    background-color: ;
+}
+
+/* Create two equal columns that sits next to each other */
+.columnuu {
+    flex: 50%;
+    padding: 0 4px;
+   
+
+
+}
+
+
+.columnuu img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 270px;
+    margin-right: 1rem;
+
+
+    border: 7px solid rgb(255, 251, 251);
+
+    cursor: pointer;
+}
+
+.yerr{
+padding-left: 20rem;
+font-size: 10px;
+
+}
+
+
+.yerr1{
+    padding-left: 4rem;
    
   }
 .navtext {
@@ -151,4 +240,55 @@ hr.cardline {
 
 .row {
   --bs-gutter-x: 0;
+}
+    
+    }
+    .col-6 img{
+       width: 7rem;
+       margin-left: 10rem;
+   
+    }
+
+
+.text{
+    font-size: 13px;
+        color: #5F002B;
+}
+.text1{
+  font-size: 13px;
+      color: #5F002B;
+      padding-left: 5rem;
+}
+
+
+.text7 {
+    font-size: 13px;
+    color: #5F002B;
+}
+
+.text71 {
+    font-size: 13px;
+    color: #5F002B;
+    padding-left: 35rem;
+    font-family: 'Montauk, Regular ';
+}
+.text72 {
+    font-size: 13px;
+    color: #5F002B;
+    font-family: 'Montauk, Regular ';
+}
+
+.text712 {
+    font-size: 13px;
+    color: #5F002B;
+  
+    font-family: 'Montauk, Regular ';
+}
+
+   
+.ss img {
+    width: 7rem;
+  
+    padding-left: 0%;
+    
 }
