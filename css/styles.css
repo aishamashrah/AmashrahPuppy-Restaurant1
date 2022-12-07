@@ -99,3 +99,56 @@ width: 30rem ;
    font-size: 10px;
    
   }
+.navtext {
+  margin-top: 20px;
+  color: #5F002B;
+  font-size: 20px;
+  align-items: center;
+  
+}
+
+.nav-space {
+  gap: 7rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bgimg {
+  background-image: url(../assets/bgtexture.jpg);
+}
+
+.menubar {
+  background-color: white;
+  max-width: 1640px;
+
+
+  display: flex;
+  justify-content: center;
+}
+
+.menu-cards{
+  margin-top: 20px;
+ gap: 1rem;
+}
+
+hr.cardline {
+  border-top-color: #980051;
+  opacity: 100%;
+}
+
+.card-title {
+  font-size: 30px;
+  color: #5F002B;
+}
+
+.card-title-2 {
+  font-size: 20px;
+  color: #5F002B;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
