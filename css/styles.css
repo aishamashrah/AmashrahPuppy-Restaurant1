@@ -3,11 +3,8 @@
 }
 
 .abtCont{
-  padding: 0;
- width: 90vw;
- display: flex;
- flex-direction: column;
- justify-content: center;
+  width: 150vw;
+ padding: 0;
 }
 
 .navLink {
@@ -113,9 +110,9 @@
 
 .cardRow1{
   margin-top: 2rem;
-  margin-right: 0;
   justify-content: center;
   display: flex;
+  margin-right: 2px;
 }
 
 .cardTitle{
@@ -163,71 +160,22 @@
 /* Media Query */
 
 @media (max-width: 425px) {
-  .ourTeamR{
-    justify-content: center;
-    display: flex;
-    margin-left: 30%;
-   width: 70%;
-  }
-
-  .cardRow1{
-    margin-left: 40%;
-  }
-  .dCard{
-    width: 20rem;
-    margin-left: 8rem;
-  }
-}
-@media (min-width: 768px) {
-  .ourTeamR{
-    justify-content: center;
-    display: flex;
-   margin-left: 0%;
-   margin-right: 0%;
-   width: 100%;
-  }
-}
-
-@media (max-width: 425px) {
   .abtCont{
-   width: 130vw;
-   margin-left: 25%;
-   padding: 0;
+   width: 120vw;
+   margin-left: 20%;
+   margin-right: 12%;
+  }
+  .aboutMainR{
+    margin-right: 2rem;
+  }
+  .cardRow1{
+    margin-left: 2rem;
   }
 }
 @media (max-width: 768px) {
-  .abtCont{
-   width: 100vw;
-   padding: 0;
-   
+  .aboutMainR{
+   margin-right:5rem;
   }
 }
 
-@media(max-width:425px){
-}
-@media(max-width:768px){
-  .bg1{
-    margin-left: 10rem;
-  }
-}
-@media(max-width:768px){
-  .dogI{
-   min-height:10rem;
-  }
 
-  .dox1{
-    height: 40rem;
-    padding: 0;
-  }
-  .jack1{
-    height: 40rem;
-    padding: 0;
-  }
-  .dox3{
-    height: 40rem;
-    padding: 0;
-  }
-  .cardRow1{
-    margin-left: 0;
-  }
-}
