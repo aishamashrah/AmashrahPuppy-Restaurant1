@@ -163,11 +163,12 @@
   .abtCont{
    width: 120vw;
   }
-  .aboutMainR{
-   
+  .dCard{
+   width: 30rem;
+   margin-left: 2rem;
   }
-  .cardRow1{
-   
+  .ourTeamR{
+   width: 33rem;
   }
 }
 @media (max-width: 768px) {
