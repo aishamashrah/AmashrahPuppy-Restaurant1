@@ -159,17 +159,15 @@
 
 /* Media Query */
 
-@media (max-width: 425px) {
+@media (min-width: 425px) {
   .abtCont{
    width: 120vw;
-   margin-left: 20%;
-   margin-right: 12%;
   }
   .aboutMainR{
-    margin-right: 2rem;
+   
   }
   .cardRow1{
-    margin-left: 2rem;
+   
   }
 }
 @media (max-width: 768px) {
