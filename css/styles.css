@@ -3,38 +3,24 @@
 }
 
 .abtCont{
-  width: 150vw;
- padding: 0;
-}
-
-.navLink {
-  text-decoration: none;
-  color: #5F002B;
-  font-family: 'Fugaz One', cursive;
-}
-
-.primeNav{
-  list-style: none; 
-   gap: 3em;
-}
-
-.abtHeader {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
+ width:100%;
+ min-height: 100vh;
+ padding-left: 2%;
+ padding-right: 2%;
+ box-sizing: border-box;
+ overflow: hidden;
 }
 
 
 .aboutMainImg{
-  width: 520px;
-  margin-right: 2rem;
-  
+  max-width: 190%;
+  margin-left: 1%;
 }
 
 .bg1{
   background-color: white;
-  margin-left: 13rem;
-  width: 58.4%;
+  margin-left: 21.3%;
+  width: 53%;
 }
 
 .aboutMainTxt{
@@ -42,9 +28,6 @@
   
 }
 
-.aboutMainR{
- flex-wrap: nowrap;
-}
 
 
 .Grill{
@@ -68,51 +51,48 @@
   background-color: white;
   margin-top: 3rem;
   text-align: center;
+  justify-content: center;
+  display: flex;
 }
 
 .ourTeamR{
   justify-content: center;
   display: flex;
-  padding: 0;
-  margin: 0
+  margin-right: 0.1px;
+  margin-left: 0.1%;
 }
 
 .dox1{
-  justify-content: start;
-  display: flex;
+  
 }
 
 .dox3{
   
-  display: flex;
-  padding-right: 0;
+  
 
 
 }
 
 .jack1{
-  justify-content: center;
-  display: flex;
-  padding: 0;
+ 
 }
 
-.card{
+.dCard{
   border-radius: 0;
   justify-content: center;
   display: flex;
+  /* width: 24rem;
+  margin-left: 2rem; */
 }
 
 .dogI{
   border-radius: 0;
-  min-height: 400px;
-  max-height: 400px;
 }
 
 .cardRow1{
-  margin-top: 2rem;
   justify-content: center;
   display: flex;
-  margin-right: 2px;
+  margin-top: 2rem;
 }
 
 .cardTitle{
@@ -159,20 +139,3 @@
 
 /* Media Query */
 
-@media (min-width: 425px) {
-  .abtCont{
-   width: 120vw;
-  }
-  .dCard{
-   width: 30rem;
-   margin-left: 2rem;
-  }
-  .ourTeamR{
-   width: 33rem;
-  }
-}
-@media (max-width: 768px) {
-  .aboutMainR{
-   margin-right:5rem;
-  }
-}
