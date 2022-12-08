@@ -225,54 +225,108 @@
   }
 
 /* ----------photo page------------------------------- */
+/* ----------photo page------------------------------- */
 .photobackg {
-    background-image: url("/assets/bgtexture.jpg");
+  background-image: url("/assets/bgtexture.jpg");
 
 }
 .T{
-  margin-left: 2rem;
+margin-left: 2rem;
 }
 
 .nav-link {
-    color: #5F002B;
+  color: #5F002B;
 }
 .col-lg-5 {
-    width: 30rem;
+  width: 30rem;
 }
 .nav1 {
-    padding-right: 10rem;
+  padding-right: 10rem;
 
 }
 
 .text7 {
-    font-size: 13px;
-    color: #5F002B;
-  padding-right: 4rem;
+  font-size: 13px;
+  color: #5F002B;
+padding-right: 4rem;
 }
 
 .text71 {
-    font-size: 13px;
-    color: #5F002B;
+  font-size: 13px;
+  color: #5F002B;
 
-    font-family: 'Montauk, Regular ';
+  font-family: 'Montauk, Regular ';
 }
 
 .photo11 {
-    background-color: aliceblue;
-    color: #5F002B;
-    text-align: center;
-    line-height: 4rem;
-    margin-left: 2rem;
-    margin-right: 3rem;
+  background-color: aliceblue;
+  color: #5F002B;
+  text-align: center;
+  line-height: 4rem;
+  margin-left: 2rem;
+  margin-right: 3rem;
 }
 
 
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-    
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  
+}
+
+/* Create two equal columns that sits next to each other */
+.columnuu {
+  flex: 50%;
+  padding: 0 4px;
+  padding-left: 2rem;
+
+
+}
+
+.s img {
+  width: 7rem;
+
+
+}
+
+.columnuu img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 270px;
+  margin-right: 2rem;
+
+
+  border: 7px solid rgb(255, 251, 251);
+
+  cursor: pointer;
+}
+
+
+.col-lg-6{
+margin-top: 2rem;
+}
+
+
+.col-6 img {
+  margin-left: 6rem;
+ 
+
+}
+
+
+
+
+
+/* ////// */
+.conG{
+  width:100%;
+  min-height: 100vh;
+  padding-left: 2%;
+  padding-right: 2%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 /* Create two equal columns that sits next to each other */
