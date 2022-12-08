@@ -13,7 +13,7 @@
 
 
 .aboutMainImg{
-  max-width: 190%;
+  width: 190%;
   margin-left: 1%;
 }
 
@@ -122,5 +122,78 @@
 }
 
 
-/* Media Query */
+/* Catering CSS */
 
+.cateringBg{
+  background-image: url("../assets/bgtexture.jpg");
+}
+
+.cateringCont{
+  width:100%;
+ min-height: 100vh;
+ padding-left: 2%;
+ padding-right: 2%;
+ box-sizing: border-box;
+ overflow: hidden;
+}
+
+.cateringStrip{
+  background-color: white;
+  margin-top: 3rem;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+.cateringTxt{
+  font-size: 30px;
+  color: #5F002B;
+  font-family: 'Fugaz One', cursive;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cateringHero{
+  width: 1690px;
+  justify-content: center;
+  display: flex;
+  margin-top: 4rem;
+}
+
+
+.cateringRow{
+  padding: 12px;
+}
+
+.cateringImg2{
+  width: 34vw;
+}
+
+.cateringImgCol{
+  margin-top: 5rem;
+  width: 40%;
+  padding: 0;
+}
+.cateringTxtCol{
+  margin-top: 5rem;
+  width: 60%;
+  background-color: white;
+}
+
+.cateringRow2{
+  width: 100%;
+  margin: 0;
+}
+
+.catTxt{
+  font-size: 11px;
+}
+.catTitle{
+  margin-top: 1rem;
+}
+
+.cat1Img{
+  width: 30%;
+}
