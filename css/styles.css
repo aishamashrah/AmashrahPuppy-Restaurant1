@@ -172,12 +172,12 @@
 }
 
 .cateringImgCol{
-  margin-top: 5rem;
+  margin-top: 4rem;
   width: 40%;
   padding: 0;
 }
 .cateringTxtCol{
-  margin-top: 5rem;
+  margin-top: 4rem;
   width: 60%;
   background-color: white;
 }
@@ -195,5 +195,31 @@
 }
 
 .cat1Img{
-  width: 30%;
+  width: 100%;
+}
+.cat2Img{
+  width: 100%;
+}
+.cat3Img{
+  width: 100%;
+}
+.cat1ImgCol{
+  width: 33%;
+}
+.cat2ImgCol{
+  width: 33%;
+}
+.cat3ImgCol{
+  width: 34%;
+}
+.catImgRow{
+  margin-top: 5rem;
+}
+
+
+/* Media Query */
+@media(max-width:768px){
+  .cateringTxtCol{
+    width: 100%;
+  }
 }
