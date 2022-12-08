@@ -1,186 +1,103 @@
-.backgroundimg {
+/* ----------photo page------------------------------- */
+.photobackg {
     background-image: url("/assets/bgtexture.jpg");
+
+}
+.T{
+  margin-left: 2rem;
 }
 
-body,
-html {
-    height: 100%;
-}
-
-
-.hero-image {
-
-    background-image: url("../assets/homeHero.jpg");
-
-
-    height: 50%;
-
-
-    background-position: start;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-/* ----------nav---------- */
 .nav-link {
     color: #5F002B;
-    font-family: 'Fugaz One', cursive;
 }
-.col-12{
-font-size: 14px;
-padding-top: 1rem;
+.col-lg-5 {
+    width: 30rem;
 }
-.nav {
-    justify-content: end;
-    margin-top: 1rem;
+.nav1 {
+    padding-right: 10rem;
 
 }
-
-.navlogo {
-    padding-left: 3rem;
-}
-
-/* ------------------ */
-.pic3 {
-    margin-right: 20rem;
-}
-
-.row {
-    display: flex;
-
-}
-
-
-.column {
-    flex: 50%;
-    padding: 10px;
-    height: 300px;
-
-}
-
-.column2 {
-    flex: 50%;
-    padding: 10px;
-    height: 300px;
-
-}
-
-.textbackG {
-
-    color: #5F002B;
-    font-size: 13px;
-   
-    margin-bottom: 3rem;
-}
-
-.himeimage {
-    width: 42rem;
-    margin-top: 3rem;
-    
-
-
-}
-
-.text-block {
-    position: absolute;
-
-    background-color: rgb(255, 255, 255);
-
-
-}
-.font-family{
-    font-family: 'Fugaz One', cursive;
-}
-h1 {
-    color: #5F002B;
-}
-
-/* --------- */
-.column1 {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 300px;
-    /* Should be removed. Only for demonstration */
-    margin-top: 10rem;
-    color: #5F002B;
-    font-size: 10px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-
-}
-
-.column2 {
-    float: left;
-    width: 20px;
-    padding: 10px;
-    height: 30px;
-    /* Should be removed. Only for demonstration */
-    margin-top: 10rem;
-    color: #5F002B;
-    font-size: 10px;
-
-}
-
-.yerr7 {
-
-    font-size: 10px;
-    padding-top: 7rem;
-    ;
-
-}
-
-.s img {
-    width: 7rem;
-    margin-left: 39rem;
-    padding-left: 0%;
-
-
-
-}
-
-
-.yerr17 {
-    padding-left: rem;
-    padding-top: 7rem;
-    color: #5F002B;
-
-}
-
-
-
 
 .text7 {
     font-size: 13px;
     color: #5F002B;
+  padding-right: 4rem;
 }
 
 .text71 {
     font-size: 13px;
     color: #5F002B;
-  
+
     font-family: 'Montauk, Regular ';
 }
 
-/* /////////////////////////////////// */
-.row1 {
-    padding-right: 40rem;
-}
-
-.card-body1 {
-    margin-top: 1rem;
+.photo11 {
+    background-color: aliceblue;
+    color: #5F002B;
+    text-align: center;
+    line-height: 4rem;
     margin-left: 2rem;
-    font-size: 10px;
-    justify-content: start;
-
-}
-b{
-    background-color: #5F002B;
+    margin-right: 3rem;
 }
 
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    
+}
+
+/* Create two equal columns that sits next to each other */
+.columnuu {
+    flex: 50%;
+    padding: 0 4px;
+    padding-left: 2rem;
+
+
+}
+
+.s img {
+    width: 7rem;
+
+
+}
+
+.columnuu img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 270px;
+    margin-right: 2rem;
+
+
+    border: 7px solid rgb(255, 251, 251);
+
+    cursor: pointer;
+}
+
+
+.col-lg-6{
+ margin-top: 2rem;
+}
+
+
+.col-6 img {
+    margin-left: 6rem;
+   
+
+}
+
+
+
+
+
+/* ////// */
+.conG{
+    width:100%;
+    min-height: 100vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
