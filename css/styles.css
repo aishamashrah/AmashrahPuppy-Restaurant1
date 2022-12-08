@@ -112,6 +112,8 @@ padding-top: 1rem;
     background-color: aliceblue;
     margin-top: 1rem;
     width: 30rem;
+}
+
 .font-family{
     font-family: 'Fugaz One', cursive;
 }
@@ -190,7 +192,7 @@ padding-top: 2rem;
     display: flex;
     flex-wrap: wrap;
     padding: 0 5px;
-    background-color: ;
+    /* background-color:  */
 }
 
 /* Create two equal columns that sits next to each other */
@@ -280,7 +282,7 @@ hr.cardline {
   --bs-gutter-x: 0;
 }
     
-    }
+
     .col-6 img{
        width: 7rem;
        margin-left: 10rem;
@@ -296,12 +298,15 @@ hr.cardline {
   font-size: 13px;
       color: #5F002B;
       padding-left: 5rem;
-}
+
+    }
+
+/* 
     margin-top: 10rem;
     color: #5F002B;
     font-size: 10px;
 
-}
+} */
 
 .yerr7 {
 
@@ -362,9 +367,9 @@ hr.cardline {
     padding-left: 0%;
     
 }
-  
+/*   
     font-family: 'Montauk, Regular ';
-}
+} */
 
 /* /////////////////////////////////// */
 .row1 {
