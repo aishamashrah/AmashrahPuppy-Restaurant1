@@ -62,27 +62,12 @@
   margin-left: 0.1%;
 }
 
-.dox1{
-  
-}
 
-.dox3{
-  
-  
-
-
-}
-
-.jack1{
- 
-}
 
 .dCard{
   border-radius: 0;
   justify-content: center;
   display: flex;
-  /* width: 24rem;
-  margin-left: 2rem; */
 }
 
 .dogI{
@@ -111,8 +96,8 @@
 .footerImg{
   justify-content: end;
   display: flex;
- min-width: 7rem;
- max-width: 7rem;
+ min-width: 5rem;
+ max-width: 5rem;
 }
 
 .footerRow1{

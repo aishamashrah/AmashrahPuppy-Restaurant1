@@ -19,9 +19,45 @@
 
   <body class="aboutBodyBg">
     <div class="container abtCont">
+      <!-- NavBar -->
+
+      <nav class="navbar nav-space navbar-expand-lg">
+        <div class="container-fluid">
+          <img src="../assets/MuzzlesLogo.png" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link navtext" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navtext" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navtext" href="#">Catering</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navtext" href="#">Photo</a>
+              </li>
+            </ul>
+            <span class="navbar-text"> </span>
+          </div>
+        </div>
+      </nav>
+
       <!-- about -->
       <div class="row aboutMainR">
-        <div class="col-3 aboutMainCol">
+        <div class="col-3 aboutMainCol d-none d-lg-block">
           <img src="../assets/AboutMain.jpg" class="aboutMainImg" alt="" />
         </div>
         <div class="col-6 bg1">
@@ -205,12 +241,18 @@
         </div>
       </div>
 
-
-
       <!-- Footer -->
 
-      <div class="footer">
-        
+      <div class="row footerRow1">
+        <div class="col-6 addressTxt">1357 Mutt Street, Rottweiler CA. 12345</div>
+        <div class="col-6 footerLogo">
+          <img src="../assets/CompanyLogo.png" class="footerImg" alt="">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6 addressTxt">Phone: 123-456-7890</div>
+        <div class="col-6 copyRightCol copyRightTxt">Copyright © Muzzles Restaurant</div>
       </div>
     </div>
 
