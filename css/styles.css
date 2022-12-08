@@ -6,7 +6,7 @@
   
 }
 
-.nav-space {
+.mnav-space {
   gap: 7rem;
 }
 
@@ -15,7 +15,7 @@
   justify-content: space-between;
 }
 
-.bgimg {
+.mbgimg {
   background-image: url(../assets/bgtexture.jpg);
 }
 
@@ -30,24 +30,43 @@
 
 .menu-cards{
   margin-top: 20px;
- gap: 1rem;
+  gap: 1rem;
+  border-radius: 0px;
+  border: none;
 }
 
-hr.cardline {
+hr.mcardline {
   border-top-color: #980051;
   opacity: 100%;
 }
 
-.card-title {
+.mcard-title {
   font-size: 30px;
   color: #5F002B;
 }
 
-.card-title-2 {
+.mcard-title-2 {
   font-size: 20px;
   color: #5F002B;
 }
 
 .row {
   --bs-gutter-x: 0;
+}
+
+.foodtitle{
+  color: #5F002B;
+  font-size: 30px;
+}
+
+.foodprice{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+}
+
+
+.mcard-image-top{
+  border-radius: 0px;
 }
