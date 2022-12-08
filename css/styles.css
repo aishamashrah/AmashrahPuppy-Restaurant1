@@ -1,3 +1,229 @@
+
+.aboutBodyBg {
+  background-image: url("../assets/bgtexture.jpg");
+}
+
+.abtCont{
+ width:100%;
+ min-height: 100vh;
+ padding-left: 2%;
+ padding-right: 2%;
+ box-sizing: border-box;
+ overflow: hidden;
+}
+
+
+.aboutMainImg{
+  width: 190%;
+  margin-left: 1%;
+}
+
+.bg1{
+  background-color: white;
+  margin-left: 21.3%;
+  width: 53%;
+}
+
+.aboutMainTxt{
+  font-size: 12px;
+  
+}
+
+
+
+.grill{
+  color: #5F002B;
+  font-family: 'Fugaz One', cursive;
+  margin-top: 2rem;
+}
+
+
+
+.ourTeamTxt{
+  font-size: 30px;
+  color: #5F002B;
+  font-family: 'Fugaz One', cursive;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ourTeamBg{
+  background-color: white;
+  margin-top: 3rem;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.ourTeamR{
+  justify-content: center;
+  display: flex;
+  margin-right: 0.1px;
+  margin-left: 0.1%;
+}
+
+
+
+.dCard{
+  border-radius: 0;
+  justify-content: center;
+  display: flex;
+}
+
+.dogI{
+  border-radius: 0;
+}
+
+.cardRow1{
+  justify-content: center;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.cardTitle{
+  color: #5F002B;
+  font-family: 'Fugaz One', cursive;
+  font-size: 30px;
+}
+
+
+.footerLogo{
+  justify-content: end;
+  display: flex;
+  padding: 0;
+}
+
+.footerImg{
+  justify-content: end;
+  display: flex;
+ min-width: 5rem;
+ max-width: 5rem;
+}
+
+.footerRow1{
+  margin-top: 3rem;
+}
+
+.copyRightCol{
+  justify-content: end;
+  display: flex;
+}
+
+.addressTxt{
+  color: #5F002B;
+}
+
+.phoneNumTxt{
+  color: #5F002B;
+}
+
+.copyRightTxt{
+  color: #5F002B;
+}
+
+
+/* Catering CSS */
+
+.cateringBg{
+  background-image: url("../assets/bgtexture.jpg");
+}
+
+.cateringCont{
+  width:100%;
+ min-height: 100vh;
+ padding-left: 2%;
+ padding-right: 2%;
+ box-sizing: border-box;
+ overflow: hidden;
+}
+
+.cateringStrip{
+  background-color: white;
+  margin-top: 3rem;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+.cateringTxt{
+  font-size: 30px;
+  color: #5F002B;
+  font-family: 'Fugaz One', cursive;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cateringHero{
+  width: 1690px;
+  justify-content: center;
+  display: flex;
+  margin-top: 4rem;
+}
+
+
+.cateringRow{
+  padding: 12px;
+}
+
+.cateringImg2{
+  width: 34vw;
+}
+
+.cateringImgCol{
+  margin-top: 4rem;
+  width: 40%;
+  padding: 0;
+}
+.cateringTxtCol{
+  margin-top: 4rem;
+  width: 60%;
+  background-color: white;
+}
+
+.cateringRow2{
+  width: 100%;
+  margin: 0;
+}
+
+.catTxt{
+  font-size: 11px;
+}
+.catTitle{
+  margin-top: 1rem;
+}
+
+.cat1Img{
+  width: 100%;
+}
+.cat2Img{
+  width: 100%;
+}
+.cat3Img{
+  width: 100%;
+}
+.cat1ImgCol{
+  width: 33%;
+}
+.cat2ImgCol{
+  width: 33%;
+}
+.cat3ImgCol{
+  width: 34%;
+}
+.catImgRow{
+  margin-top: 5rem;
+}
+
+
+/* Media Query */
+@media(max-width:768px){
+  .cateringTxtCol{
+    width: 100%;
+  }
+
 /* ----------photo page------------------------------- */
 .photobackg {
     background-image: url("/assets/bgtexture.jpg");
@@ -100,4 +326,5 @@
     padding-right: 2%;
     box-sizing: border-box;
     overflow: hidden;
+
 }
