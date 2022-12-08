@@ -223,7 +223,7 @@
   .cateringTxtCol{
     width: 100%;
   }
-
+}
 /* ----------photo page------------------------------- */
 /* ----------photo page------------------------------- */
 .photobackg {
@@ -381,5 +381,4 @@ margin-top: 2rem;
     box-sizing: border-box;
     overflow: hidden;
 
-}
 }
