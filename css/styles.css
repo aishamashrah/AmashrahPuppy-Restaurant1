@@ -382,3 +382,78 @@ margin-top: 2rem;
     overflow: hidden;
 
 }
+
+
+/* MENU PAGE */
+.navtext {
+  margin-top: 20px;
+  color: #5F002B;
+  font-size: 20px;
+  align-items: center;
+  
+}
+
+.mnav-space {
+  gap: 7rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mbgimg {
+  background-image: url(../assets/bgtexture.jpg);
+}
+
+.menubar {
+  background-color: white;
+  max-width: 1640px;
+
+
+  display: flex;
+  justify-content: center;
+}
+
+.menu-cards{
+  margin-top: 20px;
+  gap: 1rem;
+  border-radius: 0px;
+  border: none;
+}
+
+hr.mcardline {
+  border-top-color: #980051;
+  opacity: 100%;
+}
+
+.mcard-title {
+  font-size: 30px;
+  color: #5F002B;
+}
+
+.mcard-title-2 {
+  font-size: 20px;
+  color: #5F002B;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+.foodtitle{
+  color: #5F002B;
+  font-size: 30px;
+}
+
+.foodprice{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+}
+
+
+.mcard-image-top{
+  border-radius: 0px;
+}
