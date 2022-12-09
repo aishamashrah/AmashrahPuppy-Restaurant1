@@ -411,22 +411,22 @@ hr.mcardline {
 }
 
 .mcard-title {
-  font-size: 30px;
-  color: #5F002B;
-}
-
-.mcard-title-2 {
   font-size: 20px;
   color: #5F002B;
 }
 
-.row {
-  --bs-gutter-x: 0;
+.mcard-title-2 {
+  font-size: 10px;
+  color: #5F002B;
 }
+
+/* .row {
+  --bs-gutter-x: 0;
+} */
 
 .foodtitle{
   color: #5F002B;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .foodprice{
@@ -434,6 +434,11 @@ hr.mcardline {
   justify-content: center;
   text-align: center;
   margin: 0;
+}
+
+.fooddesc{
+  color: #5F002B;
+  font-size: 10px;
 }
 
 
