@@ -25,7 +25,9 @@
 }
 
 .aboutMainTxt{
-  font-size: 12px;
+  font-size: 13px;
+  color: #5F002B;
+  font-family: 'Montauk-Regular';
 }
 
 
@@ -121,6 +123,16 @@
   color: #5F002B;
 }
 
+.aboutCrdImgTxt{
+  color: #5F002B;
+  font-family: 'Montauk-Regular';
+}
+
+@font-face{
+  font-family: Montauk-regular;
+  src: url(../fonts/Montauk-Regular.otf);
+}
+
 
 /* Catering CSS */
 
@@ -188,7 +200,9 @@
 }
 
 .catTxt{
-  font-size: 11px;
+  font-size: 12px;
+  font-family: 'Montauk-Regular';
+  color: #5F002B;
 }
 .catTitle{
   margin-top: 1rem;
@@ -399,22 +413,22 @@ hr.mcardline {
 }
 
 .mcard-title {
-  font-size: 30px;
-  color: #5F002B;
-}
-
-.mcard-title-2 {
   font-size: 20px;
   color: #5F002B;
 }
 
-.row {
-  --bs-gutter-x: 0;
+.mcard-title-2 {
+  font-size: 10px;
+  color: #5F002B;
 }
+
+/* .row {
+  --bs-gutter-x: 0;
+} */
 
 .foodtitle{
   color: #5F002B;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .foodprice{
@@ -422,6 +436,11 @@ hr.mcardline {
   justify-content: center;
   text-align: center;
   margin: 0;
+}
+
+.fooddesc{
+  color: #5F002B;
+  font-size: 10px;
 }
 
 
