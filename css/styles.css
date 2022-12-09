@@ -9,10 +9,18 @@ html {
   height: 100%;
 } */
 
+.home-card{
+  border-radius: 0;
+  border: none;
+}
+
+.card-img-bottom{
+  border-radius: 0;
+}
 
 .hero-image {
 
-  background-image: url("../assets/homeHero.jpg");
+  
   height: 50%;
   background-position: start;
   background-repeat: no-repeat;
