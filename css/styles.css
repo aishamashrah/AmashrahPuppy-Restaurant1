@@ -26,6 +26,8 @@
 
 .aboutMainTxt{
   font-size: 12px;
+  color: #5F002B;
+  font-family: 'Montauk-Regular';
 }
 
 
@@ -119,6 +121,16 @@
 
 .copyRightTxt{
   color: #5F002B;
+}
+
+.aboutCrdImgTxt{
+  color: #5F002B;
+  font-family: 'Montauk-Regular';
+}
+
+@font-face{
+  font-family: Montauk-regular;
+  src: url(../fonts/Montauk-Regular.otf);
 }
 
 
