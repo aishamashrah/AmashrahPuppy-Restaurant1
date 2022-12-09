@@ -4,10 +4,10 @@
   background-image: url("/assets/bgtexture.jpg");
 }
 
-body,
+/* body,
 html {
   height: 100%;
-}
+} */
 
 
 .hero-image {
@@ -297,7 +297,7 @@ html {
     width: 100%;
   }
 }
-/* ----------photo page------------------------------- */
+
 /* ----------photo page------------------------------- */
 .photobackg {
   background-image: url("/assets/bgtexture.jpg");
@@ -307,9 +307,7 @@ html {
 margin-left: 2rem;
 }
 
-.nav-link {
-  color: #5F002B;
-}
+
 .nav1 {
   padding-right: 10rem;
 
@@ -351,11 +349,7 @@ font-family: 'Montauk-Regular';
 
 }
 
-.s img {
-  width: 7rem;
 
-
-}
 
 .columnuu img {
   margin-top: 8px;
@@ -404,10 +398,6 @@ font-family: 'Montauk-Regular';
 
 }
 
-.yerr7 {
-  font-size: 10px;
-  padding-top: 7rem;
-}
 
 .s img {
   width: 7rem;
@@ -465,9 +455,9 @@ font-family: 'Montauk-Regular';
   font-family: 'Montauk, Regular ';
 }
 
-.row1 {
+/* .row1 {
   padding-right: 40rem;
-}
+} */
 
 .card-body1 {
   margin-top: 1rem;
