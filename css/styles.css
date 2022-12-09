@@ -58,6 +58,316 @@ html {
   width: 42rem;
   margin-top: 3rem;
 }
+/* About page CSS */
+.aboutBodyBg {
+  background-image: url("../assets/bgtexture.jpg");
+}
+
+.abtCont{
+ width:100%;
+ min-height: 100vh;
+ padding-left: 2%;
+ padding-right: 2%;
+ box-sizing: border-box;
+ overflow: hidden;
+}
+
+
+.aboutMainImg{
+  width: 190%;
+  margin-left: 1%;
+}
+
+.bg1{
+  background-color: white;
+  margin-left: 21.3%;
+  width: 53%;
+}
+
+.aboutMainTxt{
+  font-size: 13px;
+  color: #5F002B;
+  font-family: 'Montauk-Regular';
+}
+
+
+
+.grill{
+  color: #5F002B;
+  font-family: 'Fugaz One', cursive;
+  margin-top: 2rem;
+}
+
+
+
+.ourTeamTxt{
+  font-size: 30px;
+  color: #5F002B;
+  font-family: 'Fugaz One', cursive;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ourTeamBg{
+  background-color: white;
+  margin-top: 3rem;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.ourTeamR{
+  justify-content: center;
+  display: flex;
+  margin-right: 0.1px;
+  margin-left: 0.1%;
+}
+
+
+
+.dCard{
+  border-radius: 0;
+  justify-content: center;
+  display: flex;
+}
+
+.dogI{
+  border-radius: 0;
+}
+
+.cardRow1{
+  justify-content: center;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.cardTitle{
+  color: #5F002B;
+  font-family: 'Fugaz One', cursive;
+  font-size: 30px;
+}
+
+
+.footerLogo{
+  justify-content: end;
+  display: flex;
+  padding: 0;
+}
+
+.footerImg{
+  justify-content: end;
+  display: flex;
+ min-width: 5rem;
+ max-width: 5rem;
+}
+
+.footerRow1{
+  margin-top: 3rem;
+}
+
+.copyRightCol{
+  justify-content: end;
+  display: flex;
+}
+
+.addressTxt{
+  color: #5F002B;
+}
+
+.phoneNumTxt{
+  color: #5F002B;
+}
+
+.copyRightTxt{
+  color: #5F002B;
+}
+
+.aboutCrdImgTxt{
+  color: #5F002B;
+  font-family: 'Montauk-Regular';
+}
+
+@font-face{
+  font-family: Montauk-regular;
+  src: url(../fonts/Montauk-Regular.otf);
+}
+
+
+/* Catering CSS */
+
+.cateringBg{
+  background-image: url("../assets/bgtexture.jpg");
+}
+
+.cateringCont{
+  width:100%;
+ min-height: 100vh;
+ padding-left: 2%;
+ padding-right: 2%;
+ box-sizing: border-box;
+ overflow: hidden;
+}
+
+.cateringStrip{
+  background-color: white;
+  margin-top: 3rem;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+.cateringTxt{
+  font-size: 30px;
+  color: #5F002B;
+  font-family: 'Fugaz One', cursive;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cateringHero{
+  width: 1690px;
+  justify-content: center;
+  display: flex;
+  margin-top: 4rem;
+}
+
+
+.cateringRow{
+  padding: 12px;
+}
+
+.cateringImg2{
+  width: 34vw;
+}
+
+.cateringImgCol{
+  margin-top: 4rem;
+  width: 40%;
+  padding: 0;
+}
+.cateringTxtCol{
+  margin-top: 4rem;
+  width: 60%;
+  background-color: white;
+}
+
+.cateringRow2{
+  width: 100%;
+  margin: 0;
+}
+
+.catTxt{
+  font-size: 12px;
+  font-family: 'Montauk-Regular';
+  color: #5F002B;
+}
+.catTitle{
+  margin-top: 1rem;
+}
+
+.cat1Img{
+  width: 100%;
+}
+.cat2Img{
+  width: 100%;
+}
+.cat3Img{
+  width: 100%;
+}
+.cat1ImgCol{
+  width: 33%;
+}
+.cat2ImgCol{
+  width: 33%;
+}
+.cat3ImgCol{
+  width: 34%;
+}
+.catImgRow{
+  margin-top: 5rem;
+}
+
+
+/* Media Query */
+@media(max-width:768px){
+  .cateringTxtCol{
+    width: 100%;
+  }
+}
+/* ----------photo page------------------------------- */
+/* ----------photo page------------------------------- */
+.photobackg {
+  background-image: url("/assets/bgtexture.jpg");
+
+}
+.T{
+margin-left: 2rem;
+}
+
+.nav-link {
+  color: #5F002B;
+}
+.nav1 {
+  padding-right: 10rem;
+
+}
+
+.text7 {
+  font-size: 13px;
+  color: #5F002B;
+padding-right: 4rem;
+font-family: 'Montauk-Regular';
+}
+
+.text71 {
+  font-size: 13px;
+  color: #5F002B;
+
+  font-family: 'Montauk-Regular';
+}
+
+.photo11 {
+  background-color: aliceblue;
+  color: #5F002B;
+  text-align: center;
+  line-height: 4rem;
+  margin-left: 2rem;
+  margin-right: 3rem;
+}
+
+
+
+
+
+/* Create two equal columns that sits next to each other */
+.columnuu {
+  flex: 50%;
+  padding: 0 4px;
+  padding-left: 2rem;
+
+
+}
+
+.s img {
+  width: 7rem;
+
+
+}
+
+.columnuu img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 270px;
+  margin-right: 2rem;
+
+
+  border: 7px solid rgb(255, 251, 251);
+
+  cursor: pointer;
+}
 
 
 
@@ -103,14 +413,45 @@ html {
   width: 7rem;
   margin-left: 39rem;
   padding-left: 0%;
+
+
 }
 
+/* ////// */
+.conG{
+  width:100%;
+  min-height: 100vh;
+  padding-left: 2%;
+  padding-right: 2%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
 
-.yerr17 {
-  padding-left: rem;
-  padding-top: 7rem;
-  color: #5F002B;
+/* Create two equal columns that sits next to each other */
+.columnuu {
+    flex: 50%;
+    padding: 0 4px;
+    padding-left: 2rem;
 
+
+}
+
+.s img {
+    width: 7rem;
+
+
+}
+
+.columnuu img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 270px;
+    margin-right: 2rem;
+
+
+    border: 7px solid rgb(255, 251, 251);
+
+    cursor: pointer;
 }
 .text7 {
   font-size: 13px;
@@ -141,3 +482,146 @@ b {
 }
 
 /* end of aishas home page */
+
+
+
+
+
+
+
+/* ////// */
+.conG{
+    width:100%;
+    min-height: 100vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+
+/* MENU PAGE */
+.navtext {
+  margin-top: 20px;
+  color: #5F002B;
+  font-size: 20px;
+  align-items: center;
+  font-family: 'Fugaz One', cursive;
+}
+
+.mnav-space {
+  gap: 7rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mbgimg {
+  background-image: url(../assets/bgtexture.jpg);
+}
+
+.menubar {
+  background-color: white;
+  max-width: 1640px;
+
+
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-toggler{
+  color: #5F002B;
+}
+
+.navbar-toggler-icon{
+  color: #5F002B;
+}
+
+.menubartxt{
+  font-size: 50px;
+  font-family: Fugaz One;
+  color: #5F002B;
+  margin: 0;
+}
+
+.mcard{
+  margin-top: 20px;
+  gap: 1rem;
+  border-radius: 0px;
+  border: none;
+}
+
+hr.mcardline {
+  border-top-color: #980051;
+  opacity: 100%;
+  margin-bottom: 30px;
+}
+
+.mcard-title {
+  font-size: 25px;
+  color: #5F002B;
+  font-family: Fugaz One;
+}
+
+.mcard-title-2 {
+  font-size: 15px;
+  color: #5F002B;
+  font-family: Montauk-Regular;
+}
+
+/* .row {
+  --bs-gutter-x: 0;
+} */
+
+.foodtitle{
+  color: #5F002B;
+  font-size: 25px;
+  font-family: Montauk-Regular;
+}
+
+.foodprice{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  font-family: Montauk-Regular;
+  font-size: 25px;
+  color: #5F002B;
+}
+
+.fooddesc{
+  color: #5F002B;
+  font-size: 15px;
+  font-family: Montauk-Regular;
+}
+
+.desc-text-spacing{
+  margin-bottom: 5px;
+}
+
+.mcard-image-top{
+  border-radius: 0px;
+}
+
+.mcard{
+  padding: 0px;
+}
+
+.mcard-spacing{
+  margin-top: 10px;
+  padding: 0;
+}
+
+.food-title-spacing{
+  margin-bottom: 5px;
+}
+/* 
+.foodprice{
+  font-size: 20px;
+  color: #5F002B;
+} */
+
+/* end of menu page */
