@@ -1,4 +1,4 @@
-
+/* About page CSS */
 .aboutBodyBg {
   background-image: url("../assets/bgtexture.jpg");
 }
@@ -361,7 +361,7 @@ padding-right: 4rem;
   color: #5F002B;
   font-size: 20px;
   align-items: center;
-  
+  font-family: 'Fugaz One', cursive;
 }
 
 .mnav-space {
