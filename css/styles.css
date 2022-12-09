@@ -1,187 +1,143 @@
-
 /* aishas page */
 
 .backgroundimg {
-    background-image: url("/assets/bgtexture.jpg");
+  background-image: url("/assets/bgtexture.jpg");
 }
 
 body,
 html {
-    height: 100%;
+  height: 100%;
 }
 
 
 .hero-image {
 
-    background-image: url("../assets/homeHero.jpg");
-
-
-    height: 50%;
-
-
-    background-position: start;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+  background-image: url("../assets/homeHero.jpg");
+  height: 50%;
+  background-position: start;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-/* ----------nav---------- */
+
 .nav-link {
-    color: #5F002B;
-    font-family: 'Fugaz One', cursive;
+  color: #5F002B;
+  font-family: 'Fugaz One', cursive;
 }
-/*  */
+
+
 .nav {
-    justify-content: end;
-    margin-top: 1rem;
-
-}
-
-.navlogo {
-    padding-left: 3rem;
-}
-
-/* ------------------ */
-.pic3 {
-    margin-right: 20rem;
-}
-
-.row {
-    display: flex;
+  justify-content: end;
+  margin-top: 1rem;
 
 }
 
 
 .column {
-    flex: 50%;
-    padding: 10px;
-    height: 300px;
-
+  flex: 50%;
+  padding: 10px;
+  height: 300px;
 }
 
 .column2 {
-    flex: 50%;
-    padding: 10px;
-    height: 300px;
-
+  flex: 50%;
+  padding: 10px;
+  height: 300px;
 }
 
 .textbackG {
 
-    color: #5F002B;
-    font-size: 13px;
-   
-    margin-bottom: 3rem;
+  color: #5F002B;
+  font-size: 13px;
+
+  margin-bottom: 3rem;
 }
 
 .himeimage {
-    width: 42rem;
-    margin-top: 3rem;
-    
-
-
+  width: 42rem;
+  margin-top: 3rem;
 }
 
-.text-block {
-    position: absolute;
-
-    background-color: rgb(255, 255, 255);
 
 
-}
-.font-family{
-    font-family: 'Fugaz One', cursive;
-}
-h1 {
-    color: #5F002B;
+.font-family {
+  font-family: 'Fugaz One', cursive;
+  color: #5F002B;
 }
 
-/* --------- */
 .column1 {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 300px;
-    /* Should be removed. Only for demonstration */
-    margin-top: 10rem;
-    color: #5F002B;
-    font-size: 10px;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  margin-top: 10rem;
+  color: #5F002B;
+  font-size: 10px;
 }
 
-/* Clear floats after the columns */
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 
 }
 
 .column2 {
-    float: left;
-    width: 20px;
-    padding: 10px;
-    height: 30px;
-    /* Should be removed. Only for demonstration */
-    margin-top: 10rem;
-    color: #5F002B;
-    font-size: 10px;
+  float: left;
+  width: 20px;
+  padding: 10px;
+  height: 30px;
+  margin-top: 10rem;
+  color: #5F002B;
+  font-size: 10px;
 
 }
 
 .yerr7 {
-
-    font-size: 10px;
-    padding-top: 7rem;
-    ;
-
+  font-size: 10px;
+  padding-top: 7rem;
 }
 
 .s img {
-    width: 7rem;
-    margin-left: 39rem;
-    padding-left: 0%;
-
-
-
+  width: 7rem;
+  margin-left: 39rem;
+  padding-left: 0%;
 }
 
 
 .yerr17 {
-    padding-left: rem;
-    padding-top: 7rem;
-    color: #5F002B;
+  padding-left: rem;
+  padding-top: 7rem;
+  color: #5F002B;
 
 }
-
-
-
-
 .text7 {
-    font-size: 13px;
-    color: #5F002B;
+  font-size: 13px;
+  color: #5F002B;
 }
 
 .text71 {
-    font-size: 13px;
-    color: #5F002B;
-  
-    font-family: 'Montauk, Regular ';
+  font-size: 13px;
+  color: #5F002B;
+
+  font-family: 'Montauk, Regular ';
 }
 
-/* /////////////////////////////////// */
 .row1 {
-    padding-right: 40rem;
+  padding-right: 40rem;
 }
 
 .card-body1 {
-    margin-top: 1rem;
-    margin-left: 2rem;
-    font-size: 10px;
-    justify-content: start;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  font-size: 10px;
+  justify-content: start;
 
 }
-b{
-    background-color: #5F002B;
+
+b {
+  background-color: #5F002B;
 }
 
-/* end of aishas page */
+/* end of aishas home page */
