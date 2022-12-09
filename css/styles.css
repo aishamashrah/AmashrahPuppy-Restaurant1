@@ -4,10 +4,10 @@
   background-image: url("/assets/bgtexture.jpg");
 }
 
-body,
+/* body,
 html {
   height: 100%;
-}
+} */
 
 
 .hero-image {
@@ -386,12 +386,12 @@ font-family: 'Montauk-Regular';
   font-size: 10px;
 }
 
-.row:after {
+/* .row:after {
   content: "";
   display: table;
   clear: both;
 
-}
+} */
 
 .column2 {
   float: left;
