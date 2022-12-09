@@ -26,7 +26,6 @@
 
 .aboutMainTxt{
   font-size: 12px;
-  
 }
 
 
@@ -237,9 +236,6 @@ margin-left: 2rem;
 .nav-link {
   color: #5F002B;
 }
-.col-lg-5 {
-  width: 30rem;
-}
 .nav1 {
   padding-right: 10rem;
 
@@ -269,12 +265,7 @@ padding-right: 4rem;
 
 
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-  
-}
+
 
 /* Create two equal columns that sits next to each other */
 .columnuu {
@@ -304,16 +295,6 @@ padding-right: 4rem;
 }
 
 
-.col-lg-6{
-margin-top: 2rem;
-}
-
-
-.col-6 img {
-  margin-left: 6rem;
- 
-
-}
 
 
 
@@ -357,16 +338,6 @@ margin-top: 2rem;
 }
 
 
-.col-lg-6{
- margin-top: 2rem;
-}
-
-
-.col-6 img {
-    margin-left: 6rem;
-   
-
-}
 
 
 
