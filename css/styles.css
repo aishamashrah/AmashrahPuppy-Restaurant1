@@ -4,10 +4,10 @@
   background-image: url("/assets/bgtexture.jpg");
 }
 
-/* body,
+body,
 html {
   height: 100%;
-} */
+}
 
 .home-card{
   border-radius: 0;
@@ -18,14 +18,14 @@ html {
   border-radius: 0;
 }
 
-.hero-image {
+.hero-image1 {
 
-  
+  background-image: url("../assets/homeHero.jpg");
   height: 50%;
   background-position: start;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  
 }
 
 
@@ -55,9 +55,9 @@ html {
 }
 
 .textbackG {
-
+  font-family: 'Montauk-Regular';
   color: #5F002B;
-  font-size: 13px;
+  font-size: 14px;
 
   margin-bottom: 3rem;
 }
